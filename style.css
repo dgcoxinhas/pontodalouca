@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: #bfd8ec;
+    background-color: #ffdcea;
 }
 
 h1,
@@ -33,7 +33,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #ad1a61;
+    background-color: #ffc4dc;
 }
 
 header a {
@@ -44,7 +44,7 @@ header a {
 .nome {
     padding: 0 162px;
     font-size: 80px;
-    color: #ffeff7;
+    color: #ffffff;
     font-family: "oswald", sans-serif;
 }
 
@@ -285,7 +285,7 @@ footer .boxs {
 }
 
 body {
-    background-color: #ecbfe3;
+    background-color: #ffdcea;
 }
 
 h1,
