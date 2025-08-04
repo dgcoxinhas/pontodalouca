@@ -10,7 +10,6 @@
 }
 
 body {
-    font-family: 'Courier New', Courier, monospace;
     background-color:  #ffeee4;
 }
 
@@ -136,7 +135,7 @@ main {
     background-color: #ffff;
     margin: 0 3%;
     border-radius: 50px;
-    border: 27px solid #ffdbc4;
+    border: 27px solid rgb(155, 67, 8);
 }
 
 .caixinha {
@@ -148,14 +147,14 @@ main {
     background-color: #ffffff;
     margin: 3%;
     border-radius: 50px;
-    border: 27px solid #ffdbc4
+    border: 27px solid rgb(155, 64, 8);
 }
 
 .section2 {
     background-color: #ffff;
     margin: 0 3%;
     border-radius: 50px;
-    border: 27px solid #ffdbc4;
+    border: 27px solid #ffdbc4
 
 .cominiti {
     background-color: #fad8c5;
@@ -310,7 +309,7 @@ main {
     padding: 20px;
     font-size: 16px;
     transition: .5s;
-    background-color: #ffcdb2;
+    background-color: #0a6783;
     border-radius: 25px;
     padding-bottom: 164px;
     flex-wrap: wrap;
@@ -325,7 +324,7 @@ main {
 .botao {
     padding: 6px;
     border-radius: 9px;
-    background:#ffb7b0;
+    background: #ffd6b0;
     ;
     margin-top: 2%;
     margin-left: 2%;
