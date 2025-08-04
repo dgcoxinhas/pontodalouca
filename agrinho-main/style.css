@@ -1,0 +1,629 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-de-fundo: #ffffff;
+    --cor-do-texto: #000000;
+}
+
+body {
+    background-color: #bfd8ec;
+}
+
+h1,
+p,
+h2,
+h6,
+h3 {
+    color: #ffffff
+}
+
+
+
+section {
+    display: flex;
+    color: rgb(#000000);
+    background-color: #ffffff;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1a77ad;
+}
+
+header a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.nome {
+    padding: 0 162px;
+    font-size: 80px;
+    color: #effbff;
+    font-family: "oswald", sans-serif;
+}
+
+.marca {
+    width: 25%;
+    padding: 1% 0;
+    position: relative;
+    top: 69px;
+    left: 15px;
+}
+
+.hello-kitty {
+    display: flex;
+    align-items: center;
+    margin: -5% 0;
+}
+
+.titulo {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+}
+
+
+#icon-pesquisa {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #ffd5b2;
+    border-radius: 40px;
+    margin: 7% 20%;
+
+}
+
+.icon-pesquisa {
+    user-select: none;
+    cursor: pointer;
+}
+
+.texto-pesqu {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    font-size: 16px;
+    line-height: 40px;
+    width: 0;
+    transition: .5s;
+    background-color: #2091d3;
+    border-radius: 92px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+
+}
+
+input {
+    color: #ffffff;
+}
+
+::placeholder {
+    color: #eefcff;
+}
+
+.caixa-pesquisa {
+    height: 68px;
+    display: flex;
+    align-items: center;
+}
+
+.caixa-pesquisa:hover>.texto-pesqu {
+    width: 240px;
+    padding: 5px 17px;
+}
+
+.menu {
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 336;
+    font-style: normal;
+}
+
+.apresentação {
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 336;
+    font-style: normal;
+    font-size: 35px;
+    padding: 0 6%;
+}
+
+.img-tec {
+    width: 35%;
+    float: right;
+}
+
+.img-tec2 {
+    width: 35%;
+    float: right;
+}
+
+.titulo-principal {
+    margin-top: 7%;
+    padding: 20px 98px;
+    font-size: 66px;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    background-color: #bfd8ec;
+}
+
+.topico {
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 35px;
+    font-size: 252%;
+    padding: 0 4%;
+    color: #030e04;
+}
+
+.desenvol {
+    font-size: 35px;
+    padding: 0 6%;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 336;
+    font-style: normal;
+}
+
+.div {
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 365;
+    font-style: normal;
+    font-size: 35px;
+    padding: 2% 5%;
+}
+
+.letrinha-pequena {
+    color: #ffffff;
+    font-size: 25px;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+
+
+
+nav {
+    height: 100%;
+    width: 0px;
+    background-color: #1a77ad;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    overflow: hidden;
+    transition: widht 0.3s;
+}
+
+nav a {
+    padding: 20px 0;
+    color: #ffffff;
+    font-size: 25px;
+    display: block;
+    padding: 9px 52px 12px 58px;
+}
+
+nav a:hover {
+    color: #bcd2e0;
+    background-color: #166ea1;
+}
+
+main {
+    padding: 10px;
+    transition: margin-left 0.5s;
+}
+
+
+
+footer {
+    min-height: 250px;
+    display: flex;
+    width: 100%;
+    background: #305874;
+    display: flex;
+    flex-direction: row;
+
+}
+
+footer .boxs {
+    text-align: center;
+    width: 100%;
+    min-height: 150px;
+    padding: 52px;
+    font-size: 32px;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 336;
+    font-style: normal;
+}
+
+.boxs h2 {
+    color: #effbff;
+    margin-bottom: 20px;
+}
+
+.boxs ul li {
+    margin: 10px 0px;
+    list-style: none;
+}
+
+.boxs ul li a {
+    color: #e5eff7;
+    text-decoration: none;
+}
+
+.boxs ul li a:hover {
+    color: #789cc5;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-de-fundo: #ffffff;
+    --cor-do-texto: #000000;
+}
+
+body {
+    background-color: #bfd8ec;
+}
+
+h1,
+p,
+h2,
+h6,
+h3 {
+    color: #ffffff;
+}
+
+section {
+    display: flex;
+    color: rgb(#000000);
+    background-color: #ffffff;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1a77ad;
+}
+
+header a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.nome {
+    padding: 0 162px;
+    font-size: 80px;
+    color: #effbff;
+    font-family: "oswald", sans-serif;
+}
+
+.marca {
+    width: 25%;
+    padding: 1% 0;
+    position: relative;
+    top: 69px;
+    left: 15px;
+}
+
+.hello-kitty {
+    display: flex;
+    align-items: center;
+    margin: -5% 0;
+}
+
+.titulo {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+}
+
+#icon-pesquisa {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #ffd5b2;
+    border-radius: 40px;
+    margin: 7% 20%;
+}
+
+.icon-pesquisa {
+    user-select: none;
+    cursor: pointer;
+}
+
+.texto-pesqu {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    font-size: 16px;
+    line-height: 40px;
+    width: 0;
+    transition: .5s;
+    background-color: #2091d3;
+    border-radius: 92px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+}
+
+input {
+    color: #ffffff;
+}
+
+::placeholder {
+    color: #eefcff;
+}
+
+.caixa-pesquisa {
+    height: 68px;
+    display: flex;
+    align-items: center;
+}
+
+.caixa-pesquisa:hover>.texto-pesqu {
+    width: 240px;
+    padding: 5px 17px;
+}
+
+.menu {
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 336;
+    font-style: normal;
+}
+
+.apresentação {
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 336;
+    font-style: normal;
+    font-size: 35px;
+    padding: 0 6%;
+}
+
+.img-tec {
+    width: 35%;
+    float: right;
+}
+
+.img-tec2 {
+    width: 35%;
+    float: right;
+}
+
+.titulo-principal {
+    margin-top: 7%;
+    padding: 20px 98px;
+    font-size: 66px;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    background-color: #bfd8ec;
+}
+
+.topico {
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 35px;
+    font-size: 252%;
+    padding: 0 4%;
+    color: #030e04;
+}
+
+.desenvol {
+    font-size: 35px;
+    padding: 0 6%;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 336;
+    font-style: normal;
+}
+
+.div {
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 365;
+    font-style: normal;
+    font-size: 35px;
+    padding: 2% 5%;
+}
+
+.letrinha-pequena {
+    color: #ffffff;
+    font-size: 25px;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+nav {
+    height: 100%;
+    width: 0px;
+    background-color: #1a77ad;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    overflow: hidden;
+    transition: width 0.3s;
+}
+
+nav a {
+    padding: 20px 0;
+    color: #ffffff;
+    font-size: 25px;
+    display: block;
+    padding: 9px 52px 12px 58px;
+}
+
+nav a:hover {
+    color: #bcd2e0;
+    background-color: #166ea1;
+}
+
+main {
+    padding: 10px;
+    transition: margin-left 0.5s;
+}
+
+footer {
+    min-height: 250px;
+    display: flex;
+    width: 100%;
+    background: #305874;
+    display: flex;
+    flex-direction: row;
+}
+
+footer .boxs {
+    text-align: center;
+    width: 100%;
+    min-height: 150px;
+    padding: 52px;
+    font-size: 32px;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 336;
+    font-style: normal;
+}
+
+.boxs h2 {
+    color: #effbff;
+    margin-bottom: 20px;
+}
+
+.boxs ul li {
+    margin: 10px 0px;
+    list-style: none;
+}
+
+.boxs ul li a {
+    color: #e5eff7;
+    text-decoration: none;
+}
+
+.boxs ul li a:hover {
+    color: #789cc5;
+}
+
+@media (max-width: 768px) {
+    
+    section{
+        flex-grow: 0;
+    }
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nome {
+        padding: 0 50px;
+        font-size: 48px;
+    }
+
+    .marca {
+        width: 100%;
+        padding: 1% 0;
+        top: 0;
+        left: 0;
+    }
+
+    .titulo-principal {
+        font-size: 36px;
+        padding: 20px 30px;
+    }
+
+    .topico {
+        font-size: 28px;
+        padding: 0 10px;
+    }
+
+    .img-tec,
+    .img-tec2 {
+        width: 100%;
+        float: none;
+        margin-top: 20px;
+    }
+
+    .caixa-pesquisa {
+        margin: 0 10px;
+        justify-content: center;
+    }
+
+    
+
+    .menu {
+        font-size: 18px;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+    }
+
+    footer .boxs {
+        padding: 20px;
+    }
+
+    footer .boxs ul li a {
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .nome {
+        font-size: 36px;
+        padding: 0 20px;
+    }
+
+    .titulo-principal {
+        font-size: 30px;
+        padding: 20px;
+    }
+
+    .topico {
+        font-size: 24px;
+    }
+
+    .letrinha-pequena {
+        font-size: 18px;
+    }
+
+    .caixa-pesquisa:hover>.texto-pesqu {
+        width: 180px;
+    }
+}

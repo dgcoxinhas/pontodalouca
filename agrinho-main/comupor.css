@@ -1,0 +1,520 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-de-fundo: #ffffff;
+    --cor-do-texto: #000000;
+}
+
+body {
+    background-color: #bfd8ec;
+}
+
+
+section {
+    display: flex;
+    color: rgb(#000000);
+    background-color: #ffffff;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1a77ad;
+}
+
+header a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.nome {
+    padding: 0 162px;
+    font-size: 80px;
+    color: #effbff;
+    font-family: "oswald", sans-serif;
+}
+
+.marca {
+    width: 25%;
+    padding: 1% 0;
+    position: relative;
+    top: 69px;
+    left: 15px;
+}
+
+
+.hello-kitty {
+    display: flex;
+    align-items: center;
+    margin: -5% 0;
+}
+
+.titulo {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+}
+
+
+#icon-pesquisa {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #ffd5b2;
+    border-radius: 40px;
+    margin: 7% 20%;
+
+}
+
+.icon-pesquisa {
+    user-select: none;
+    cursor: pointer;
+}
+
+.texto-pesqu {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    font-size: 16px;
+    line-height: 40px;
+    width: 0;
+    transition: .5s;
+    background-color: #2091d3;
+    border-radius: 92px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+
+}
+
+input {
+    color: #ffffff;
+}
+
+::placeholder {
+    color: #eefcff;
+}
+
+.caixa-pesquisa {
+    height: 68px;
+    display: flex;
+    align-items: center;
+}
+
+.caixa-pesquisa:hover>.texto-pesqu {
+    width: 240px;
+    padding: 5px 17px;
+}
+
+.menu {
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 336;
+    font-style: normal;
+}
+
+nav {
+    height: 100%;
+    width: 0px;
+    background-color: #1a77ad;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    overflow: hidden;
+    transition: widht 0.3s;
+}
+
+nav a {
+    padding: 20px 0;
+    color: #ffffff;
+    font-size: 25px;
+    display: block;
+    padding: 9px 52px 12px 58px;
+}
+
+nav a:hover {
+    color: #bcd2e0;
+    background-color: #166ea1;
+}
+
+main {
+    padding: 10px;
+    transition: margin-left 0.5s;
+}
+
+.topico {
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 25px;
+    padding: 0 8%;
+    color: #ffffff;
+}
+
+.topico1 {
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 30px;
+    padding: 0px 7%;
+    color: #ffffff;
+    padding-top: 9%;
+}
+
+.topico3 {
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 42px;
+    padding: 0 5%;
+    color: #ffffff;
+}
+
+.section {
+    padding: 3%;
+    background-color: #ffff;
+    margin: 0 3%;
+    border-radius: 50px;
+    border: 27px solid rgb(8, 108, 155);
+}
+
+.caixinha {
+    padding: 56px 24px;
+}
+
+.section1 {
+    padding: 3%;
+    background-color: #ffffff;
+    margin: 3%;
+    border-radius: 50px;
+    border: 27px solid rgb(8, 108, 155);
+}
+
+.section2 {
+    background-color: #ffff;
+    margin: 0 3%;
+    border-radius: 50px;
+    border: 27px solid rgb(8, 108, 155);
+}
+
+.cominiti {
+    background-color: #bfd8ec;
+}
+
+.quem_somos {
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 35px;
+    padding: 0 4%;
+    color: #030e04;
+    padding-top: 4%;
+}
+
+.desenvol {
+    color: white;
+    padding: 0 40px;
+    font-size: 24px;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 336;
+    font-style: normal;
+}
+
+.desenvol3 {
+    color: white;
+    padding: 0 70px;
+    font-size: 32px;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 336;
+    font-style: normal;
+}
+
+
+.logo {
+    width: 58%;
+    float: left;
+    padding: 5%;
+    user-select: none;
+    cursor: pointer;
+    margin-top: 9%;
+}
+
+.logouniasselvi {
+    width: 55%;
+    float: left;
+    padding: 10% 0;
+    user-select: none;
+    cursor: pointer;
+    margin-left: 8%;
+}
+
+.logosenar {
+    border-radius: 14%;
+    width: 79%;
+    float: left;
+    user-select: none;
+    cursor: pointer;
+    margin-left: 5%;
+}
+
+.logohortinha {
+    border-radius: 17%;
+    width: 44%;
+    float: left;
+    padding: 0 5%;
+    user-select: none;
+    cursor: pointer;
+    margin-top: 7%;
+}
+
+.logoanhanguera {
+    width: 86%;
+    float: left;
+    padding: 5%;
+    user-select: none;
+    cursor: pointer;
+    margin-left: 10%;
+}
+
+.logounyleya {
+    width: 85%;
+    float: left;
+    padding: 5%;
+    user-select: none;
+    cursor: pointer;
+    margin-left: 10%;
+}
+
+.logoudemy {
+    width: 87%;
+    float: left;
+    user-select: none;
+    cursor: pointer;
+}
+
+.logorwsolares {
+    width: 76%;
+    float: left;
+    user-select: none;
+    cursor: pointer;
+    padding: 5%;
+    margin-left: 10%;
+}
+
+.google {
+    height: 20%;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.descri {
+    font-size: 19px;
+    padding: 34px;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 336;
+    font-style: normal;
+}
+
+.letrinha-pequena {
+    color: #ffffff;
+    margin: 0 31px;
+    font-size: 17px;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.letrinha-pequena1 {
+    color: #ffffff;
+    font-size: 17px;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    cursor: pointer;
+    text-decoration: none;
+    user-select: none;
+}
+
+.texto-comunidade {
+    display: flex;
+    width: 90%;
+    margin: 0 28px;
+    background: none;
+    outline: none;
+    padding: 20px;
+    font-size: 16px;
+    transition: .5s;
+    background-color: #0a6783;
+    border-radius: 25px;
+    padding-bottom: 164px;
+    flex-wrap: wrap;
+}
+
+
+.caixa-comunidade {
+    margin: 18px 0px;
+    height: 168px;
+}
+
+.botao {
+    padding: 6px;
+    border-radius: 9px;
+    background: #b0e6ff;
+    ;
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 90%;
+}
+
+footer {
+    min-height: 250px;
+    display: flex;
+    width: 100%;
+    background: #305874;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+footer .boxs {
+    text-align: center;
+    width: 100%;
+    min-height: 150px;
+    padding: 52px;
+    font-size: 32px;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 336;
+    font-style: normal;
+}
+
+.boxs h2 {
+    color: #b6e6e9;
+    margin-bottom: 20px;
+}
+
+.boxs ul li {
+    margin: 10px 0px;
+    list-style: none;
+}
+
+.boxs ul li a {
+    color: #e5eff7;
+    text-decoration: none;
+}
+
+.boxs ul li a:hover {
+    color: #789cc5;
+}
+
+@* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-de-fundo: #ffffff;
+    --cor-do-texto: #000000;
+}
+
+body {
+    background-color: #bfd8ec;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a77ad;
+    padding: 10px 5%;
+}
+
+header a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.nome {
+    font-size: 80px;
+    color: #effbff;
+    font-family: "oswald", sans-serif;
+    padding: 0;
+}
+
+.marca {
+    width: 25%;
+    padding: 1% 0;
+    position: relative;
+    top: 69px;
+    left: 15px;
+}
+
+.hello-kitty {
+    display: flex;
+    align-items: center;
+    margin: -5% 0;
+}
+
+.titulo {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+}
+
+/* Ajuste para telas menores */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 5%;
+    }
+
+    .nome {
+        font-size: 48px;
+        padding: 0;
+    }
+
+    .marca {
+        width: 60%;
+        padding: 0;
+        top: 0;
+        left: 0;
+    }
+
+    .hello-kitty {
+        margin: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 15px 3%;
+    }
+
+    .nome {
+        font-size: 36px;
+    }
+
+    .marca {
+        width: 70%;
+    }
+}
