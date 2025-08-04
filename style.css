@@ -33,7 +33,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #1a77ad;
+    background-color: #ad1a61;
 }
 
 header a {
@@ -44,7 +44,7 @@ header a {
 .nome {
     padding: 0 162px;
     font-size: 80px;
-    color: #effbff;
+    color: #ffeff7;
     font-family: "oswald", sans-serif;
 }
 
@@ -73,7 +73,7 @@ header a {
 #icon-pesquisa {
     display: grid;
     grid-template-columns: 50% 50%;
-    background-color: #ffd5b2;
+    background-color: #ffb2bf;
     border-radius: 40px;
     margin: 7% 20%;
 
@@ -93,7 +93,7 @@ header a {
     line-height: 40px;
     width: 0;
     transition: .5s;
-    background-color: #2091d3;
+    background-color: #d3207c;
     border-radius: 92px;
 }
 
@@ -108,7 +108,7 @@ input {
 }
 
 ::placeholder {
-    color: #eefcff;
+    color: #ffeef5;
 }
 
 .caixa-pesquisa {
@@ -156,7 +156,7 @@ input {
     font-optical-sizing: auto;
     font-weight: 800;
     font-style: normal;
-    background-color: #bfd8ec;
+    background-color: #ecbfda;
 }
 
 .topico {
@@ -203,7 +203,7 @@ input {
 nav {
     height: 100%;
     width: 0px;
-    background-color: #1a77ad;
+    background-color: #ad1a77;
     position: fixed;
     top: 0;
     right: 0;
@@ -221,8 +221,8 @@ nav a {
 }
 
 nav a:hover {
-    color: #bcd2e0;
-    background-color: #166ea1;
+    color: #e0bccb;
+    background-color: #a1165b;
 }
 
 main {
@@ -236,7 +236,7 @@ footer {
     min-height: 250px;
     display: flex;
     width: 100%;
-    background: #305874;
+    background: #743052;
     display: flex;
     flex-direction: row;
 
@@ -270,7 +270,7 @@ footer .boxs {
 }
 
 .boxs ul li a:hover {
-    color: #789cc5;
+    color: #c57898;
 }
 
 * {
@@ -285,7 +285,7 @@ footer .boxs {
 }
 
 body {
-    background-color: #bfd8ec;
+    background-color: #ecbfe3;
 }
 
 h1,
@@ -306,7 +306,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #1a77ad;
+    background-color: #ad1a7c;
 }
 
 header a {
@@ -317,7 +317,7 @@ header a {
 .nome {
     padding: 0 162px;
     font-size: 80px;
-    color: #effbff;
+    color: #ffeffe;
     font-family: "oswald", sans-serif;
 }
 
@@ -345,7 +345,7 @@ header a {
 #icon-pesquisa {
     display: grid;
     grid-template-columns: 50% 50%;
-    background-color: #ffd5b2;
+    background-color: #ffb2dc;
     border-radius: 40px;
     margin: 7% 20%;
 }
@@ -364,7 +364,7 @@ header a {
     line-height: 40px;
     width: 0;
     transition: .5s;
-    background-color: #2091d3;
+    background-color: #d320a9;
     border-radius: 92px;
 }
 
@@ -378,7 +378,7 @@ input {
 }
 
 ::placeholder {
-    color: #eefcff;
+    color: #ffeefd;
 }
 
 .caixa-pesquisa {
@@ -426,7 +426,7 @@ input {
     font-optical-sizing: auto;
     font-weight: 800;
     font-style: normal;
-    background-color: #bfd8ec;
+    background-color: #ecbfd7;
 }
 
 .topico {
@@ -470,7 +470,7 @@ input {
 nav {
     height: 100%;
     width: 0px;
-    background-color: #1a77ad;
+    background-color: #ad1a81;
     position: fixed;
     top: 0;
     right: 0;
@@ -489,7 +489,7 @@ nav a {
 
 nav a:hover {
     color: #bcd2e0;
-    background-color: #166ea1;
+    background-color: #a1165e;
 }
 
 main {
@@ -501,7 +501,7 @@ footer {
     min-height: 250px;
     display: flex;
     width: 100%;
-    background: #305874;
+    background: #743050;
     display: flex;
     flex-direction: row;
 }
@@ -519,7 +519,7 @@ footer .boxs {
 }
 
 .boxs h2 {
-    color: #effbff;
+    color: #ffeff8;
     margin-bottom: 20px;
 }
 
@@ -534,7 +534,7 @@ footer .boxs {
 }
 
 .boxs ul li a:hover {
-    color: #789cc5;
+    color: #c5789f;
 }
 
 @media (max-width: 768px) {
