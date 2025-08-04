@@ -233,7 +233,7 @@ footer .boxs {
 }
 
 body {
-    background-color: #ffdcea;
+    background-color: #ffeae4;
 }
 
 h1,
@@ -254,7 +254,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #ffdaed
+    background-color: #ffe4da
 }
 
 header a {
