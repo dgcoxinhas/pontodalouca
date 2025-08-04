@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: #bfd8ec;
+    background-color:  #ffeee4;
 }
 
 
@@ -24,7 +24,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #1a77ad;
+    background-color:  #ffe4da;
 }
 
 header a {
@@ -35,7 +35,7 @@ header a {
 .nome {
     padding: 0 162px;
     font-size: 80px;
-    color: #effbff;
+    color: #ffffff;
     font-family: "oswald", sans-serif;
 }
 
@@ -61,58 +61,6 @@ header a {
     font-style: normal;
 }
 
-
-#icon-pesquisa {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    background-color: #ffd5b2;
-    border-radius: 40px;
-    margin: 7% 20%;
-
-}
-
-.icon-pesquisa {
-    user-select: none;
-    cursor: pointer;
-}
-
-.texto-pesqu {
-    border: none;
-    background: none;
-    outline: none;
-    padding: 0;
-    font-size: 16px;
-    line-height: 40px;
-    width: 0;
-    transition: .5s;
-    background-color: #2091d3;
-    border-radius: 92px;
-}
-
-.icon {
-    width: 40px;
-    height: 40px;
-
-}
-
-input {
-    color: #ffffff;
-}
-
-::placeholder {
-    color: #eefcff;
-}
-
-.caixa-pesquisa {
-    height: 68px;
-    display: flex;
-    align-items: center;
-}
-
-.caixa-pesquisa:hover>.texto-pesqu {
-    width: 240px;
-    padding: 5px 17px;
-}
 
 .menu {
     font-family: "Source Sans 3", sans-serif;
@@ -142,8 +90,8 @@ nav a {
 }
 
 nav a:hover {
-    color: #bcd2e0;
-    background-color: #166ea1;
+    color: #f9d7c8;
+    background-color: #ffbca5;
 }
 
 main {
@@ -187,7 +135,7 @@ main {
     background-color: #ffff;
     margin: 0 3%;
     border-radius: 50px;
-    border: 27px solid rgb(8, 108, 155);
+    border: 27px solid rgb(155, 67, 8);
 }
 
 .caixinha {
@@ -199,18 +147,18 @@ main {
     background-color: #ffffff;
     margin: 3%;
     border-radius: 50px;
-    border: 27px solid rgb(8, 108, 155);
+    border: 27px solid rgb(155, 64, 8);
 }
 
 .section2 {
     background-color: #ffff;
     margin: 0 3%;
     border-radius: 50px;
-    border: 27px solid rgb(8, 108, 155);
+    border: 27px solid rgb(155, 67, 8);
 }
 
 .cominiti {
-    background-color: #bfd8ec;
+    background-color: #fad8c5;
 }
 
 .quem_somos {
@@ -377,7 +325,7 @@ main {
 .botao {
     padding: 6px;
     border-radius: 9px;
-    background: #b0e6ff;
+    background: #ffd6b0;
     ;
     margin-top: 2%;
     margin-left: 2%;
@@ -388,7 +336,7 @@ footer {
     min-height: 250px;
     display: flex;
     width: 100%;
-    background: #305874;
+    background: #ffd1c2;
     display: flex;
     flex-direction: row;
 
@@ -408,7 +356,7 @@ footer .boxs {
 }
 
 .boxs h2 {
-    color: #b6e6e9;
+    color: #ffffff;
     margin-bottom: 20px;
 }
 
@@ -418,12 +366,12 @@ footer .boxs {
 }
 
 .boxs ul li a {
-    color: #e5eff7;
+    color: #ffffff;
     text-decoration: none;
 }
 
 .boxs ul li a:hover {
-    color: #789cc5;
+    color: #c58578;
 }
 
 @media screen {
@@ -440,14 +388,14 @@ footer .boxs {
 }
 
 body {
-    background-color: #bfd8ec;
+    background-color: #ffeee4;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1a77ad;
+    background-color: #ffe4da;
     padding: 10px 5%;
 }
 
@@ -458,7 +406,7 @@ header a {
 
 .nome {
     font-size: 80px;
-    color: #effbff;
+    color: #ffffff;
     font-family: "oswald", sans-serif;
     padding: 0;
 }
