@@ -135,7 +135,7 @@ main {
     background-color: #ffff;
     margin: 0 3%;
     border-radius: 50px;
-    border: 27px solid rgb(155, 67, 8);
+    border: 27px solid #ffdbc4;
 }
 
 .caixinha {
@@ -147,15 +147,14 @@ main {
     background-color: #ffffff;
     margin: 3%;
     border-radius: 50px;
-    border: 27px solid rgb(155, 64, 8);
+    border: 27px solid #ffdbc4
 }
 
 .section2 {
     background-color: #ffff;
     margin: 0 3%;
     border-radius: 50px;
-    border: 27px solid rgb(155, 67, 8);
-}
+    border: 27px solid #ffdbc4;
 
 .cominiti {
     background-color: #fad8c5;
@@ -310,7 +309,7 @@ main {
     padding: 20px;
     font-size: 16px;
     transition: .5s;
-    background-color: #0a6783;
+    background-color: #ffcdb2;
     border-radius: 25px;
     padding-bottom: 164px;
     flex-wrap: wrap;
@@ -325,7 +324,7 @@ main {
 .botao {
     padding: 6px;
     border-radius: 9px;
-    background: #ffd6b0;
+    background:#ffb7b0;
     ;
     margin-top: 2%;
     margin-left: 2%;
