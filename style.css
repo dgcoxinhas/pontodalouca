@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: #ffdcea;
+    background-color: #ffeae4;
 }
 
 h1,
@@ -30,10 +30,11 @@ section {
 }
 
 header {
+    padding: 38px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #ffc4dc;
+    background-color: #ffe4da;
 }
 
 header a {
@@ -67,59 +68,6 @@ header a {
     font-optical-sizing: auto;
     font-weight: 400px;
     font-style: normal;
-}
-
-
-#icon-pesquisa {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    background-color: #ffb2bf;
-    border-radius: 40px;
-    margin: 7% 20%;
-
-}
-
-.icon-pesquisa {
-    user-select: none;
-    cursor: pointer;
-}
-
-.texto-pesqu {
-    border: none;
-    background: none;
-    outline: none;
-    padding: 0;
-    font-size: 16px;
-    line-height: 40px;
-    width: 0;
-    transition: .5s;
-    background-color: #d3207c;
-    border-radius: 92px;
-}
-
-.icon {
-    width: 40px;
-    height: 40px;
-
-}
-
-input {
-    color: #ffffff;
-}
-
-::placeholder {
-    color: #ffeef5;
-}
-
-.caixa-pesquisa {
-    height: 68px;
-    display: flex;
-    align-items: center;
-}
-
-.caixa-pesquisa:hover>.texto-pesqu {
-    width: 240px;
-    padding: 5px 17px;
 }
 
 .menu {
@@ -322,11 +270,11 @@ header a {
 }
 
 .marca {
-    width: 25%;
+    width: 18%;
     padding: 1% 0;
     position: relative;
     top: 69px;
-    left: 15px;
+    left: 45px;
 }
 
 .hello-kitty {
@@ -342,32 +290,6 @@ header a {
     font-style: normal;
 }
 
-#icon-pesquisa {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    background-color: #ffb2dc;
-    border-radius: 40px;
-    margin: 7% 20%;
-}
-
-.icon-pesquisa {
-    user-select: none;
-    cursor: pointer;
-}
-
-.texto-pesqu {
-    border: none;
-    background: none;
-    outline: none;
-    padding: 0;
-    font-size: 16px;
-    line-height: 40px;
-    width: 0;
-    transition: .5s;
-    background-color: #d320a9;
-    border-radius: 92px;
-}
-
 .icon {
     width: 40px;
     height: 40px;
@@ -375,21 +297,6 @@ header a {
 
 input {
     color: #ffffff;
-}
-
-::placeholder {
-    color: #ffeefd;
-}
-
-.caixa-pesquisa {
-    height: 68px;
-    display: flex;
-    align-items: center;
-}
-
-.caixa-pesquisa:hover>.texto-pesqu {
-    width: 240px;
-    padding: 5px 17px;
 }
 
 .menu {
@@ -426,7 +333,7 @@ input {
     font-optical-sizing: auto;
     font-weight: 800;
     font-style: normal;
-    background-color: #ffe4ee;
+    background-color: #ffeee4;
 }
 
 .topico {
